@@ -38,8 +38,8 @@
              #2e86de);
         background-clip: text;
         -webkit-background-clip: text;
-        clip-path: cir@@@cle(500px at 0% 50%);
-        animation: move 6@@@s infinite;
+        clip-path: circle(500px at 0% 50%);
+        animation: move 5s infinite;
     }
     
     @keyframes move{
