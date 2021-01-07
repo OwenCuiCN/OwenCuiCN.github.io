@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.background{
+    /*背景的信息先放到这，从这到}结束*/
+    background-image: url(/img/World_map2.jpg);
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body_homepage{
+    /*文档全部居中*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.body_home{
+    color: rgb(197, 197, 197);
+}
+
+.bottom{
+    text-align: center;
+}
+
+/*
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    */
